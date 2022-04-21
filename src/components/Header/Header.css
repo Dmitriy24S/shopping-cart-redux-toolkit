@@ -1,0 +1,32 @@
+header {
+  background: var(--clr-primary);
+}
+nav {
+  padding: 1.25rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.nav-logo {
+  color: white;
+  cursor: pointer;
+}
+.nav-cart-container {
+  position: relative;
+  color: white;
+  cursor: pointer;
+}
+.nav-cart-amount {
+  position: absolute;
+  top: -9px;
+  right: -9px;
+  background: var(--clr-primary-light);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
