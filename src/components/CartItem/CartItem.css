@@ -38,6 +38,7 @@
 @media (hover) {
   .remove-button:hover {
     color: var(--clr-primary-light);
+    /* color: var(--clr-red-dark); */
   }
   .amount-button:hover {
     color: var(--clr-primary-light);
