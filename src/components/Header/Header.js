@@ -5,10 +5,14 @@ import "./Header.css";
 
 const Header = () => {
   const { amount } = useSelector((state) => state.cart);
+
+  const restartPage = () => {
+    window.location.reload();
+  };
   return (
     <header>
       <nav>
-        <div className="nav-logo">
+        <div className="nav-logo" onClick={restartPage}>
           <h1>Redux Toolkit</h1>
         </div>
         <div className="nav-cart-container" style={{ width: "30px" }}>

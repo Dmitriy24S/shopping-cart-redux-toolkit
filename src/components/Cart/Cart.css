@@ -13,5 +13,11 @@
   font-size: 1.8rem;
   letter-spacing: 0.15rem;
   margin: 0 auto;
-  margin-bottom: 1rem;
+}
+.empty-cart-text-container {
+  text-align: center;
+}
+.empty-cart-text {
+  margin-top: 0.5rem;
+  font-size: 1rem;
 }

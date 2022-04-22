@@ -1,14 +1,16 @@
+import { useSelector } from "react-redux";
 import CartClearButton from "../CartClearButton/CartClearButton";
 import "./CartFooter.css";
 
 function CartFooter() {
+  const { total } = useSelector((state) => state.cart);
   return (
     <div className="cart-footer">
       <hr />
       {/* Cart total */}
       <section className="cart-total">
         <h4>Total</h4>
-        <span className="total-amount"> $329.99</span>
+        <span className="total-amount">${total}</span>
       </section>
       {/* Cart clear button */}
       <CartClearButton />
