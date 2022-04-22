@@ -1,10 +1,18 @@
 import "./Cart.css";
+import { useEffect } from "react";
 import CartItem from "../CartItem/CartItem";
 import CartFooter from "../CartFooter/CartFooter";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { calculateTotal } from "../../redux/cartSlice";
 
 const Cart = () => {
   const { cartItems, amount, isLoading } = useSelector((state) => state.cart);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(calculateTotal());
+  }, [cartItems]);
+
   if (amount < 1) {
     return (
       <main>

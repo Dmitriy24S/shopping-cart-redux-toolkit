@@ -10,7 +10,7 @@ function CartFooter() {
       {/* Cart total */}
       <section className="cart-total">
         <h4>Total</h4>
-        <span className="total-amount">${total}</span>
+        <span className="total-amount">${total.toFixed(2)}</span>
       </section>
       {/* Cart clear button */}
       <CartClearButton />
