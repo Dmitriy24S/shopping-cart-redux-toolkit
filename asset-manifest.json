@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/shopping-cart-redux-toolkit/static/css/main.4440c8de.css",
-    "main.js": "/shopping-cart-redux-toolkit/static/js/main.ff685af6.js",
+    "main.css": "/shopping-cart-redux-toolkit/static/css/main.2eff26a0.css",
+    "main.js": "/shopping-cart-redux-toolkit/static/js/main.00d230b9.js",
     "index.html": "/shopping-cart-redux-toolkit/index.html",
-    "main.4440c8de.css.map": "/shopping-cart-redux-toolkit/static/css/main.4440c8de.css.map",
-    "main.ff685af6.js.map": "/shopping-cart-redux-toolkit/static/js/main.ff685af6.js.map"
+    "main.2eff26a0.css.map": "/shopping-cart-redux-toolkit/static/css/main.2eff26a0.css.map",
+    "main.00d230b9.js.map": "/shopping-cart-redux-toolkit/static/js/main.00d230b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4440c8de.css",
-    "static/js/main.ff685af6.js"
+    "static/css/main.2eff26a0.css",
+    "static/js/main.00d230b9.js"
   ]
 }
