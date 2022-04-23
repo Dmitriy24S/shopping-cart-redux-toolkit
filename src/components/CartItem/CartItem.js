@@ -7,6 +7,7 @@ const CartItem = ({ id, title, img, amount, price }) => {
   const dispatch = useDispatch();
   return (
     <article className="cart-item">
+      {/* Cart left side */}
       <img src={img} alt="" className="cart-item-img" />
       <div className="cart-item-info">
         <h2 className="cart-item-title">{title}</h2>
@@ -20,6 +21,7 @@ const CartItem = ({ id, title, img, amount, price }) => {
           Remove
         </button>
       </div>
+      {/* Cart right side - item amount */}
       <div className="amount-container">
         <button
           className="amount-button"

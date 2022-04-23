@@ -13,6 +13,7 @@ const Cart = () => {
     dispatch(calculateTotal());
   }, [cartItems]);
 
+  // If cart empty - show empty bag message
   if (amount < 1) {
     return (
       <main>
@@ -26,6 +27,7 @@ const Cart = () => {
     );
   }
 
+  // Show cart
   return (
     <main>
       <section className="cart">

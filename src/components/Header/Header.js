@@ -9,12 +9,15 @@ const Header = () => {
   const restartPage = () => {
     window.location.reload();
   };
+
   return (
     <header>
       <nav>
+        {/* nav left side - logo */}
         <div className="nav-logo" onClick={restartPage}>
           <h1>Redux Toolkit</h1>
         </div>
+        {/* nav right side - cart info */}
         <div className="nav-cart-container" style={{ width: "30px" }}>
           <CartIcon className="cart-icon" />
           <div className="nav-cart-amount">{amount}</div>
